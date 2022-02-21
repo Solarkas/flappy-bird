@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/svg/rs-favicon.iso" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <title>Flappy Bird</title>
+</head>
+<body>
+    <header >
+        <h2 class="section-title">
+          <span>3.3 random game</span>
+        </h2>
+    </header> 
+    <main class="ctn">
+        <canvas id="c" width="1060px" height="540px"></canvas>
+        <div id="scoreboard">0</div>
+        <div id="start-screen">
+          <div id="ctrl-ctn">
+            <div id="up" class="ctrl-btn">↑</div>
+            <div id="space" class="ctrl-btn">SPACE</div>
+            <div id="tap" class="ctrl-btn">TAP</div>
+          </div>
+        </div>
+        <div id="gameover-screen">
+            <div id="score">Score:</div>
+          <div id="gameover">GAME OVER</div>
+          <div id="replay">REPLAY</div>
+          <ol class="ul-score"></ol>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container footer-container">
+          <div class="footer-data">
+            <p class="copyright">©</p>
+            <p class="year">2022</p>
+            <a class="github-username" href="https://github.com/Solarkas" >github</a>
+          </div>
+          <a href="https://rs.school/js-stage0/" class="rss"> <img src="./assets/svg/rss.png" alt="rss logo"></a>
+        </div>
+      </footer>
+      <script src ="./index.js"></script>
+</body>
+</html>
